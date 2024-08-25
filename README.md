@@ -44,6 +44,14 @@ npm adduser --registry=https://registry.npmjs.org
 
 npm whoami 查看一下当前的用户：
 
+"version": "0.1.4" <=> [major].[minor]. patch
+对应的版本为大版本|中版本|小版本
+
+npm version patch  （升级小版本号）
+npm version minor（升级中版本号）
+npm version major （升级大版本号）
+
+
 npm publish
 
 ```

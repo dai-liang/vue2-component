@@ -320,8 +320,8 @@ const components = [hello_world]; // 将来如果有其它组件,都可以写到
 
 // 批量组件注册
 const install = function (Vue) {
-  components.forEach(com => {
-    Vue.component(com.name, com);
+  components.forEach(component => {
+    Vue.component(component.name, component);
   });
 };
 // 这个方法以后再使用的时候可以被use调用
